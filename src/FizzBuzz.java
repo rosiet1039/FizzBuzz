@@ -12,7 +12,7 @@ class FizzBuzz {
         }
     }
 
-    static int doFizzBuzz(int i) {
+    public static int doFizzBuzz(int i) {
 
             // Find out which numbers divide i.
             boolean divisibleBy3 = i % 3 == 0;
